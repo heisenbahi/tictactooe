@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #c35c2f;
+  height: 720px;
+
+}
+
+.game{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+
+
+}
+
+.title{
+  padding: 20px 0;
+  margin: 20px 0;
+  border-radius: 20px;  
+
+  background-color: #b68567;
+
+}
+
+.title h2{
+  color: #ffecbc;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: .1em;
+  -webkit-transition: 0.5s;
+}
+
+.title h2:hover{
+  cursor: pointer;
+  color: rgb(26, 23, 23);
+  transition: 0.5s;
+}
+
+.items{
+  height: 120px;
+  width: 120px;
+  background-color: #ea9b67;
+  float: left;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: 800;
+  -webkit-transition: 0.5s;
+
+
+}
+
+.items:hover{
+  background-color: #ffdc7f;
+  transform: 0.5s;
+  cursor: pointer;
+}
+
+.again{
+  width: 90px;
+  margin: 35% 40%;
+}
+
+.again button{
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: #b68567;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  color: #ffecbc;
+  -webkit-transition: 0.5s;
+}
+
+.again button:hover{
+  color: rgb(26, 23, 23);
+  cursor: pointer;
+}
+
+.again p{
+  margin: 20px -600px;
+
+  
+}
